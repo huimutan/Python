@@ -1,3 +1,41 @@
 {
-    "python.pythonPath": "D:\\02Run\\Python\\python.exe"
+    "python.autoComplete.addBrackets": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=248"
+    ],
+    "editor.fontSize": 18,
+    "files.autoGuessEncoding": true,
+    "editor.largeFileOptimizations": false,
+    "editor.suggestSelection": "first",
+    "jupyter.alwaysTrustNotebooks": true,
+    "jupyter.askForKernelRestart": false,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "-p",
+        "*test.py"
+    ],
+    "notebook.lineNumbers": "on",
+    "notebook.consolidatedRunButton": true,
+    "files.autoSave": "afterDelay",
+    "editor.mouseWheelZoom": true,
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Fira Code','Source Han Sans CN',Consolas,'Courier New',monospace",
+    "terminal.integrated.fontSize": 18,
+    "code-runner.runInTerminal": true,
+    "code-runner.showStopIconInEditorTitleMenu": false,
+    "code-runner.languageIdToFileExtensionMap": {
+        "bat": ".bat",
+        "powershell": ".ps1",
+        "typescript": ".ts"
+    },
+    "code-runner.fileDirectoryAsCwd": true
 }
