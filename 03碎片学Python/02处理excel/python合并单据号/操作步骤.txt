@@ -1,0 +1,8 @@
+1, 安装python
+2, 重启
+3, 安装pandas运算包  
+pip install pandas -i https://pypi.doubanio.com/simple
+pip install openpyxl -i https://pypi.doubanio.com/simple
+
+4, 修改"合并.py" 文件内11,12,31行 的文件及列名
+4, 双击合并.py即可
